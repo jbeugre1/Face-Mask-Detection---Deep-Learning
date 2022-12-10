@@ -1,1 +1,3 @@
-Create Code page
+In Faceidentification.ipynb
+
+You need to launch the final model to get the cnn3.h5 because it's too heavy to upload inside the github.
