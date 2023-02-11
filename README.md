@@ -14,7 +14,9 @@ We wanted to help reduce the spread of future illness by building a model which 
 
 During requirement gathering, we identified two potential datasets that could help us build the model. The first Dataset was gathered from kaggle and only two classes (WithMask and WIthoutMask). The other dataset identified was based on a dataset called MaskedFace-Net which recorded human faces with correctly and incorrectly worn masks. This dataset contained three classes representing images of individuals wearing masks, without masks and masks worn incorrectly. Additionally, the dataset met our requirements of having images taken from different angles as well as diversity.
 
-The train dataset has 4000 images with masks and 4100 images without masks, and 3500 with incorrect orientation of mask, whereas the test dataset contains 1300 images with masks and 1400 without masks and 1100 worn incorrectly. Here is the link to the Datasets: https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset, https://github.com/cabani/MaskedFace-Net
+The train dataset has 4000 images with masks and 4100 images without masks, and 3500 with incorrect orientation of mask, whereas the test dataset contains 1300 images with masks and 1400 without masks and 1100 worn incorrectly. Here is the link to the Datasets: 
+* https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset
+* https://github.com/cabani/MaskedFace-Net
 
 ## Data Transformation:
 
