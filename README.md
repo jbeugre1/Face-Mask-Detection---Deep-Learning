@@ -37,6 +37,7 @@ Activation = “relu”, Optimizer = “SGD”, loss = “binary_crossentropy”
 Despite decent accuracy the model was not performing well with several scenarios and there was lag in identifying the mask on a person's face in real time. Therefore, we decided to move to another model.
 
 ![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/1.png)
+
 Figure 1: Building block for MobileNet
 
 
@@ -49,6 +50,7 @@ Activation = “relu”, Optimizer = “Adam”, loss = “binary_crossentropy�
 1e-4, batch size = 32 Accuracy Yield: 98.90%
 
 ![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/2.png)
+
 Figure 2: Building block for MobileNetV2
 
 ## Methodology
