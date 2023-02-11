@@ -34,7 +34,7 @@ Activation = “relu”, Optimizer = “SGD”, loss = “binary_crossentropy”
 
 Despite decent accuracy the model was not performing well with several scenarios and there was lag in identifying the mask on a person's face in real time. Therefore, we decided to move to another model.
 
-![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/2.png)
+![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/1.png)
 Figure 1: Building block for MobileNet
 
 
@@ -46,7 +46,7 @@ Model 3 - MobilNetV2: The model was trained on the following hyperparameters:
 Activation = “relu”, Optimizer = “Adam”, loss = “binary_crossentropy”, epochs = 20, learning rate =
 1e-4, batch size = 32 Accuracy Yield: 98.90%
 
-![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/3.png)
+![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/2.png)
 Figure 2: Building block for MobileNetV2
 
 ## Methodology
@@ -57,7 +57,7 @@ In order to enrich the image dataset, we decided to apply a data augmentation to
 
 With this augmented dataset, we started loading our different dataset to start training our models, and since our data came inside folders with different type of picture, we had to use another Keras’ function called image_dataset_from_directory to load those datasets inside our code. We then tested different convolutional neural networks and selected only those with test accuracy above 90% for our real-time detection.
 
-![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/4.png)
+![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/3.png)
 Figure 3: Real-time detection methodology
 
 We used OpenCV to capture Video from a Camera and since video can be represented as a series of images, our model will predict a label in each frame of the video captured by the webcam. The first step in our real-time classification model was to find a model capable of detecting a single face. We tested two models. The Haar cascade and the Caffe model.
@@ -74,7 +74,7 @@ We know the models wouldn’t be perfect, but we were surprised by the different
 
 The table below will provide feedback on the various tests we have conducted.
 
-![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/1.png)
+![alt text](https://github.com/jbeugre1/Face-Mask-Detection---Deep-Learning/blob/main/img/4.png)
 
 
 ## Conclusion
